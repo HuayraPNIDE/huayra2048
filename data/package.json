@@ -1,0 +1,11 @@
+{
+    "name": "huayra2048",
+    "version": 0.1,
+    "main": "index.html",
+    "window": {
+        "toolbar": false,
+        "position": "center",
+	"width": 1024,
+	"height": 600
+    }
+}

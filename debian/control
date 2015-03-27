@@ -4,10 +4,11 @@ Priority: extra
 Maintainer: Sebastian Alvarez <seba.alvarez16@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: git://github.com/HuayraLinux/huayra2048.git
 
 Package: huayra-primaria-2048
 Architecture: all
+Conflicts: huayra2048
+Replaces: huayra2048
 Depends: ${shlibs:Depends}, ${misc:Depends}, node-webkit
 Description: El juego 2048
  Combiná potencias de 2 en el tablero hasta llegar a 2048.
